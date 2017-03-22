@@ -2,7 +2,7 @@
 	function database_create($db_name) {
 		$servername = "localhost";
 		$username = "root";
-		$password = "World#4938";
+		$password = "secretpass";
 
 		try {
 			$conn = new PDO("mysql:host=$servername", $username, $password);
